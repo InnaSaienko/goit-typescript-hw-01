@@ -2,4 +2,4 @@ type Union = {
     a: string | number;
 }
 
-const unionType : Union = 25;
+const unionType : Union = { a: 25};
