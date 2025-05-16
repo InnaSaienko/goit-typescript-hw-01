@@ -4,11 +4,10 @@ type Page = {
     accounts: string[],
     status: string,
     details?: {
-        createAt: {},
-        updateAt: {},
+        createAt: Date,
+        updateAt: Date,
     }
 }
-
 
 const page1: Page = {
     title: 'The awesome page',
