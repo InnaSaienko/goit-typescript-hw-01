@@ -12,8 +12,8 @@ const newUser : User = {
     password: "123456",
 };
 
-function createOrUpdateUser(initialValues: Partial<User>) : User {
-    return {...newUser, ...initialValues};
+function createOrUpdateUser(updateUser: Partial<User>) : User {
+    return { ...updateUser, ...newUser};
 }
 
 createOrUpdateUser({
