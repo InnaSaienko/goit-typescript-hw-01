@@ -5,7 +5,7 @@ export enum UserRole {
 }
 
 type RoleType = Record<UserRole, string>;
-// Замініть наступний код на версію за допомогою Record
+
 const RoleDescription : RoleType = {
     [UserRole.admin]: 'Admin User',
     [UserRole.editor]: 'Editor User',
